@@ -62,8 +62,17 @@ The following Python packages required to run the scripts can be found in ```req
 Input Video → Preprocessing → 3D CNN → Bi-GRU → CTC Decoder → Text Output
 
 
-## Note
+## ⚠️ Note
 
-To use the live prediction script `/demo/predict_live.py`, please note that it may not work on all systems. You may need to modify the script to work with your specific setup, including having the same operating system and webcam as the one used during training.
+This repository does **not** include the full dataset or trained model weights due to GitHub's size limitations.
+
+If you're interested in accessing:
+
+- The full `collected_data/` (~3 GB of custom video clips)
+- The trained model files in `model/`
+
+Please reach out to me at 📧 **shreeyamane173@gmail.com** and I’ll be happy to share them with you.
+
+And To use the live prediction script `/demo/predict_live.py`, please note that it may not work on all systems. You may need to modify the script to work with your specific setup, including having the same operating system and webcam as the one used during training.
 
 
