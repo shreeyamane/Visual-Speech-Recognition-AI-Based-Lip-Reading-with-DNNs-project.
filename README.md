@@ -28,8 +28,6 @@ How does my `/data_collection/collect.py` script work?
 
 ## Files/Folders
 
-- `writeup.pdf`: a detailed documentation of my entire project. 
-
 - `/data_collection/collect.py`: This script is used to collect the data for training the speech recognition model. It records audio clips of people speaking the different commands and saves them to a directory.
 
 - `/training/3DCNN.ipynb`: This Jupyter Notebook contains the code used to train the speech recognition model. It uses a 3D convolutional neural network to extract features from the audio clips and then classifies them using a softmax layer.
